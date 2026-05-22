@@ -1,7 +1,7 @@
-import FormCalc from '../components/FormCalc';
+import FormCalc from '../Components/FormCalc';
 import { useState } from 'react';
 import { projetoData } from "../data/projetoData";
-import OrcamentoTable from '../components/OrcamentoTable';
+import OrcamentoTable from '../Components/OrcamentoTable';
 
 function CalculadoraOrcamento() {
   const calcularPrecoProjeto = (e, valorHora, horasEstimadas) => {

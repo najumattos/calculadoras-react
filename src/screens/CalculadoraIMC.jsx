@@ -1,7 +1,7 @@
-import FormCalc from '../components/FormCalc'
+import FormCalc from '../Components/FormCalc'
 import { useState } from 'react';
 import { data } from "../data/data";
-import ImcTable from '../components/ImcTable';
+import ImcTable from '../Components/ImcTable';
 
 function CalculadoraIMC(){
  const calcImc = (e, height, weight) => {
