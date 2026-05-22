@@ -1,7 +1,7 @@
 
 # Atividade Programação Web - Prof. Rafael Altieris
 * [atividade-proposta]
-* [versel]
+* [vercel]
 ## 1. Restruturação para reutilizar componente (ImcCalc -> FormCalc)
 
 O antigo componente `ImcCalc` foi refatorado para se tornar `FormCalc`, **um componente genérico e dinâmico**. Ele agora recebe via `props` as funções de cálculo e um objeto `dadosPagina` contendo os títulos e placeholders. Isso permitiu que o mesmo formulário servisse tanto para receber **peso e altura para o calculo de IMC**, quanto **hora e preço para o calculo de orçamento**.
@@ -23,4 +23,4 @@ Foi implementado o bônus de urgência **utilizando o componente base `Button`**
 
 [atividade-proposta]: https://github.com/najumattos/aula-react/blob/main/AtividadeProposta.pdf
 
-[vercel]:
+[vercel]: https://aula-react-flame.vercel.app/
